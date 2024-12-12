@@ -1,75 +1,119 @@
+
+<!--
+https://nssdc.gsfc.nasa.gov/planetary/factsheet/
+https://www.nasa.gov/stem-content/the-nose-cone-experts/
+
+RAW data:
+ VENUS 	 EARTH 	 MOON 	 MARS 	 JUPITER
+Diameter (km)
+12,104	12,756	3475	6792	142,984
+Gravity (m/s2)
+8.9	9.8	1.6	3.7	23.1
+Escape velocity (km/s)
+10.4	11.2	2.4	5.0	59.5
+Lenght of days (hours)
+2802.0	24.0	708.7	24.7	9.9
+Orbital period (days)
+224.7	365.2	27.3*	687.0	4331
+Mean temp (C)
+464	15	-20	-65	-110
+Surface pressure(bars)
+92	1	0	0.01	Unknown*
+
+ from transparentpng.com
+
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Your Title Here</title>
+  <title>TechKey Avatarium</title>
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  <h1>Planetary Fact Sheet</h1>
-  <table id="planets">
-    <tr>
-      <th></th>
-      <th>Planet 1</th>
-      <th>Planet 2</th>
-      <th>Planet 3</th>
-      <th>Planet 4</th>
-    </tr>
-    <tr>
-      <td>Images of ??</td>
-      <td><img src="images/planet_1.png" alt="?"></td>
-      <td><img src="images/planet_2.png" alt="?"></td>
-      <td><img src="images/planet_3.png" alt="?"></td>
-      <td><img src="images/planet_4.png" alt="?"></td>
-    </tr>
-    <tr>
-      <td>Fact #1</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-    </tr>
-    <tr>
-      <td>Fact #2</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-    </tr>
-    <tr>
-      <td>Fact #3</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-    </tr>
-    <tr>
-      <td>Fact #4</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-    </tr>
-    <tr>
-      <td>Fact #5</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-    </tr>
-    <tr>
-      <td>Fact #6</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-    </tr>
-    <tr>
-      <td>Fact #7</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-    </tr>
-  </table>
+  <div id="page">
+    <p>&ensp;</p>
+    <p id="givesomespace"></p>
+    <table id="faraway">
+      <tr><td id="sw1">...in a galaxy, far away... there was a Task..</td></tr>
+      <tr><td id="sw2">..given by the famous, Daniel Krieglstein!</td></tr>
+      <tr><td id="sw3">But not too many could accept it..</td></tr>
+      <tr><td id="sw4">..even more, just a few you could do it.</td></tr>
+      <tr><td id="sw5">This story is about those times...</td></tr>
+      <tr><td id="sw5">Hard times! I told hard!</td></tr>
+      <tr><td id="sw6">..no pubs, no friends..</td></tr>
+      <tr><td id="sw6">..just the Task.</td></tr>
+      <tr><td>&ensp;</td></tr>
+      <tr><td id="sw5">..in a galaxy far away..</td></tr>
+      <tr><td>&ensp;</td></tr>
+      <tr><td id="sw4"><h3>.. oh, by the way !</h3></td></tr>
+      <tr><td id="sw5"><h2>Can you recognize these planets?</h2></td></tr>
+    </table>
+    <table id="planets">
+      <thead id="planetrow">
+        <th id="question">Tip: hover over -></p></td>
+        <th class="planetframe"><img id="planet-V" src="https://www.transparentpng.com/thumb/venus/solar-system-for-kids-solar-system-planets-dk-find-out-19.png" alt="venus"><a class="showthis" href="index.html">VENUS</a></th>
+        <th class="planetframe"><img id="planet-E" src="https://www.transparentpng.com/thumb/globe/earth-world-evident-globe-png-transparent-picture--IStQ5J.png" alt="earth"><a class="showthis" href="index.html">EARTH</a></th>
+        <th class="planetframe"><img id="planet-M" src="https://www.transparentpng.com/thumb/planet/dark-mars-free-png-R4NeAT.png" alt="mars"><a class="showthis" href="index.html">MARS</a></th>
+        <th class="planetframe"><img id="planet-J" src="https://www.transparentpng.com/thumb/jupiter/jupiter-cut-out-png-4.png" alt="jupiter"><a class="showthis" href="index.html">JUPITER</a></th>
+      </thead>
+
+      <tr>
+        <td>Diameter (km)</td>
+        <td>12,104</td>
+        <td>12,756</td>
+        <td>6,792</td>
+        <td>142,984</td>
+      </tr>
+      <tr>
+        <td>Gravity (m/s2)</td>
+        <td>8.9</td>
+        <td>9.8</td>
+        <td>3.7</td>
+        <td>23.1</td>
+      </tr>
+      <tr>
+        <td>Escape velocity (km/s)</td>
+        <td>10.4</td>
+        <td>11.2</td>
+        <td>5.0</td>
+        <td>59.5</td>
+      </tr>
+      <tr>
+        <td>Lenght of days (hours)</td>
+        <td>2,802</td>
+        <td>24.0</td>
+        <td>24.7</td>
+        <td>9.9</td>
+      </tr>
+      <tr>
+        <td>Orbital period (days)</td>
+        <td>224.7</td>
+        <td>365.2</td>
+        <td>687.0</td>
+        <td>4,331</td>
+      </tr>
+      <tr>
+        <td>Mean temp (C)</td>
+        <td>464</td>
+        <td>15</td>
+        <td>-65</td>
+        <td>-110</td>
+      </tr>
+      <tr>
+        <td>Surface pressure(bars)</td>
+        <td>92</td>
+        <td>1</td>
+        <td>0.01</td>
+        <td>Unknown*</td>
+      </tr>
+    </table>
+    <h6>Thank you for visiting my site !</h6>
+    <p id="givesomespace"></p>
+    <p>&ensp;</p>
+  </div>
+  
 </body>

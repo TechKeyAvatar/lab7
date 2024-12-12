@@ -1,0 +1,26 @@
+body {
+  background-color: darkgrey;
+  }
+
+#page {
+  width: 1000px;
+  background-image: url("../images/m11-jpg.jpg");
+  }
+
+h1 {
+  width: 100%;
+  color: yellow;
+  }
+
+#planets {
+  position: relative;
+  width: 80%;
+  margin-top: 40px;
+  background-color: midnightblue;
+  color: white;
+  }
+
+td, th {
+	border: 1px solid;
+  }
+  

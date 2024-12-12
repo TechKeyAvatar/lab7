@@ -1,4 +1,137 @@
-td, th {
-	border: 1px solid;
+body {
+  background-color: black;
   }
-  
+
+#page {
+  background-image: url("../images/m11-jpg.jpg");
+  position: relative;
+  width: 1000px;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: white;
+  }
+
+#faraway {
+  table-layout: fixed;
+  position: relative;
+  width: 800px;
+  margin-left: 100px;
+/*
+  background-color: midnightblue;
+*/
+  }
+
+#planets {
+  table-layout: fixed;
+  position: relative;
+  width: 90%;
+  margin-left: 50px;
+/*
+  background-color: midnightblue;
+*/
+  }
+
+#planets th {
+	border: none;
+  }
+
+#planetrow {
+  height: 102px;
+  border: none;
+  }
+
+.planetframe {
+  position: relative;
+  width: 20%;
+  height: 150px;
+  }
+
+#planet-V {
+  position: absolute;
+  width: 121px;
+  left: 28px;
+  top:  14px;
+  z-index: 2;
+  }
+#planet-E {
+  position: absolute;
+  width: 128px;
+  left: 25px;
+  top:  11px;
+  z-index: 2;
+  }
+#planet-M {
+  position: absolute;
+  width: 68px;
+  left: 55px;
+  top:  41px;
+  z-index: 2;
+  }
+#planet-J {
+  position: absolute;
+  width: 143px;
+  left: 17px;
+  top:  3px;
+  z-index: 2;
+  }
+
+
+.showthis {
+  position: absolute;
+  top: 55px;
+  left: 40px;
+  z-index: 10;
+  opacity: 0.0;         /* change to 1.0 for test purposes */
+  color: green;
+  font-size: 200%;
+  }
+
+.showthis:hover {
+  opacity: 1.0;
+  color: white;
+  }
+
+#givesomespace {
+  margin-top: 60px;
+  }
+
+h1 {
+  width: 100%;
+  color: yellow;
+  }
+
+h1 {
+  width: 100%;
+  color: yellow;
+  }
+
+h2 {
+  color: red;
+  }
+
+
+h3 {
+  color: white;
+  }
+
+#question {
+  color: darkgray;
+  }
+
+#faraway td {
+  text-align: center;
+  color: rgb(240,170,0);
+  }
+
+#sw1 {font-size: 250%;}
+#sw2 {font-size: 220%;}
+#sw3 {font-size: 220%;}
+#sw4 {font-size: 170%;}
+#sw5 {font-size: 150%;}
+#sw6 {font-size: 120%;}
+
+#planets td {
+	border: 1px solid;
+  text-align: center;
+  }
+ 
