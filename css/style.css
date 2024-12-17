@@ -137,12 +137,12 @@ left: 980px;
 width: 50px;
 }
 
-#sw1 {font-size: 250%;}
-#sw2 {font-size: 220%;}
-#sw3 {font-size: 220%;}
-#sw4 {font-size: 170%;}
-#sw5 {font-size: 150%;}
-#sw6 {font-size: 120%;}
+.sw1 {font-size: 250%;}
+.sw2 {font-size: 220%;}
+.sw3 {font-size: 220%;}
+.sw4 {font-size: 170%;}
+.sw5 {font-size: 150%;}
+.sw6 {font-size: 120%;}
   
 h1 {color: yellow; }
 h2 {color: red; }
